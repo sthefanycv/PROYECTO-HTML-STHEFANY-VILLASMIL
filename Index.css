@@ -105,6 +105,27 @@ text-decoration: none;
 
 /* BANNER PRINCIPAL */
 
+.section-1 {
+    margin-bottom: 100px; /* Espacio entre secciones */
+
+}
+
+.section-2 {
+    margin-bottom: 50px; /* Espacio entre secciones */
+    margin-top: 100px;
+
+}
+
+.section-3 {
+    margin-top: 100px; /* Espacio entre secciones */
+
+}
+
+.Margen-titulos{
+    margin-top: 50cap;
+}
+
+
 .banner-principal {
     background-image: url('Imagenes/Banner-background.png'); 
     background-size: cover; 
@@ -138,6 +159,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .content {
@@ -225,7 +247,7 @@ button {
 }
 
 
-/* SECCION SERVICIOS */
+/* SERVICIOS */
 
 .titulo-servicios {
     font-size: var(--letra-extraGrande);

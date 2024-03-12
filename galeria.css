@@ -1,0 +1,441 @@
+:root{
+    --color-1: #F4F4F4;
+    --color-2: #272727;
+    --color-3: #5B5B5B;
+    --color-4: #fcfcfc;
+    --tipografia-1: 'Mollen Personal Use', sans-serif;
+    --letra-default: 1.3rem;
+    --letra-mediana: 1.7rem;
+    --letra-grande: 3.5rem;
+    --letra-extraGrande: 4rem; 
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Mollen Personal Use', sans-serif;
+
+}
+
+body {
+    background-color: var(--color-1);
+}
+
+.header {
+    background-color: var(--color-2);
+    display: flex;
+    height:90px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+
+#logo-1{
+    width: 60px;
+    cursor: pointer;
+
+}
+
+#logo-1:hover {
+    transform: scale(1.2); 
+}
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+.header .nav-links a{
+font-size: 1.1rem;
+color: var(--color-1);
+text-decoration: none;
+}
+
+.header .nav-links :hover{
+    color: rgb(150, 149, 149);
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-2);
+    border: 2px solid var(--color-1);
+    border-radius: 20px;
+    padding: 5px;
+    width: 300px;
+}
+
+#search input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    background-color: var(--color-2);
+    color: #fff; 
+    outline: none; 
+}
+    
+
+#search button {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border: none;
+    border-radius: 100px;
+    padding: 0px 12px;
+    cursor: pointer;
+}
+
+
+
+/* BANNER PRINCIPAL */
+
+.section-1 {
+    margin-bottom: 100px; /* Espacio entre secciones */
+
+}
+
+.section-2 {
+    margin-bottom: 50px; /* Espacio entre secciones */
+    margin-top: 100px;
+
+}
+
+.section-3 {
+    margin-top: 100px; /* Espacio entre secciones */
+
+}
+
+.Margen-titulos{
+    margin-top: 100px;
+}
+
+.Margen-titulos-2{
+    margin-top: 60px;
+    margin-bottom: 50px; /* Espacio entre secciones */
+}
+
+.section-4 {
+    margin-bottom: 10px; /* Espacio entre secciones */
+
+}
+
+.banner-principal {
+    background-image: url('Imagenes/Banner-background.png'); 
+    background-size: cover; 
+    background-position: center; 
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-principal h1 {
+    font-size: var(--letra-default);
+    margin-bottom: 10px;
+}
+
+.banner-principal p {
+    font-size: var(--letra-default);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mollen Personal Use', sans-serif;
+}
+
+.banner {
+    background-image: url(Imagenes/Fondo-galeria.png);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    width: 50px;
+
+}
+
+.text h1 {
+    font-size: var(--letra-extraGrande);
+    line-height: -1.5;
+    letter-spacing: 1px;
+}
+
+
+.text h2 {
+    font-size: var(--letra-grande);
+    line-height: -1.5;
+    font-style: oblique;
+    color: rgb(253, 253, 253);
+    letter-spacing: 1px;
+    
+}
+
+.text h3 {
+    font-size: var(--letra-mediana);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    letter-spacing: 1.2px;
+}
+
+.text p {
+    font-size: var(--letra-default);
+    text-align: justify;
+    margin-bottom: 20px;
+    max-width: 700px;
+    line-height: 2;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:#27272709;
+    color: white;
+    border: 2px solid var(--color-1);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: var(--letra-default);
+    margin-top: 10px;
+
+
+}
+
+#button-banner:hover {
+    transform: scale(1.1); 
+}
+
+.image img {
+    width: 600px; 
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.image img:hover {
+    transform: scale(1.05); 
+}
+
+
+.separator {
+    border: none;
+    border-top: 4px solid var(--color-1);/* Estilo de la línea */
+    margin-top: 6px;
+    margin-bottom: 20px; /* Margen superior e inferior */
+    width: 240px; /* Ancho de la línea */
+}
+
+
+/* BANNER PRINCIPAL */
+
+
+
+
+
+/* GALERIA 1 */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    grid-gap: 5px; /* Espacio entre las imágenes */
+    margin: 5px; /* Margen alrededor de la cuadrícula */
+
+}
+
+.imagen {
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    margin: 5px; /* Margen alrededor de cada imagen */
+}
+
+.imagen1 {
+    background-image: url('Imagenes/producto-4.png');
+}
+
+.imagen2 {
+    background-image: url('Imagenes/producto-3.png');
+}
+
+.imagen3 {
+    background-image: url('Imagenes/producto-4.png');
+}
+
+.imagen4 {
+    background-image: url('Imagenes/producto-1.png');
+}
+
+
+
+
+.titulo-galeria-1 {
+    font-size: var(--letra-extraGrande);
+    line-height: 1.5px;
+    letter-spacing: 1px;
+    text-align: center; /* Centro el texto horizontalmente */
+    color: var(--color-2);
+}
+
+.titulo-galeria-1 em {
+    font-size: var(--letra-extraGrande);
+    font-style: oblique;
+    line-height: 1.5px;
+    letter-spacing: 1px;
+    text-align: center; /* Centro el texto horizontalmente */
+    color: var(--color-2);
+
+}
+
+.texto-galeria-1 {
+    font-size: var(--letra-mediana);
+    letter-spacing: 1px;
+    text-align: center; 
+    color: var(--color-2);
+}
+
+.separator-galeria-1 {
+    border: none;
+    border-top: 4px solid var(--color-2); /* Estilo de la línea */
+    margin-top: 6px;
+    margin-bottom: 20px; /* Margen superior e inferior */
+    width: 240px; /* Ancho de la línea */
+    margin-left: auto; /* Alinea al centro horizontal */
+    margin-right: auto; /* Alinea al centro horizontal */
+}
+
+
+/* GALERIA 1 */
+
+/* GALERIA 2 {}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de la galería */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 5 columnas */
+    grid-gap: 10px; /* Espacio entre imágenes */
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.galeria img:hover {
+    transform: scale(1.01); /* Escala la imagen al 110% en hover */
+}
+
+Productos
+
+/* PRODUCTOS  */
+
+.titulo-producto {
+    font-size: var(--letra-extraGrande);
+    line-height: 1.5px;
+    letter-spacing: 1px;
+    text-align: center; /* Centro el texto horizontalmente */
+    color: var(--color-2);
+}
+
+.titulo-producto em {
+    font-size: var(--letra-extraGrande);
+    font-style: oblique;
+    line-height: 1.5px;
+    letter-spacing: 1px;
+    text-align: center; /* Centro el texto horizontalmente */
+    color: var(--color-2);
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 30px;
+}
+
+.producto {
+    background-color: #fbfbfbec;
+    width: 25%; /* Cada producto ocupa el 25% del ancho de la pantalla */
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 15px; /* Espacio entre productos */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1)
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Agregar una transición suave al efecto hover */
+}
+
+.producto img:hover {
+    transform: scale(1.01); /* Escalar la imagen al 110% en el hover */
+}
+
+
+.producto h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: var(--letra-mediana)
+}
+
+.producto p {
+    margin: 0;
+    font-weight: normal;
+    color: var(--color-3);
+    font-size: var(--letra-default);
+}
+
+/* PIE DE PAGINA */
+
+.footer {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    text-align: center; 
+    padding: 20px 0; 
+    width: 100%; 
+    position: fixed; 
+    bottom: 0; /* Alinea el footer en la parte inferior de la ventana */
+    left: 0; /* Asegura que esté alineado a la izquierda */
+    right: 0; /* Asegura que esté alineado a la derecha */
+}
