@@ -102,6 +102,8 @@ text-decoration: none;
 }
 
 
+/* BANNER */
+
 .section-1 {
     margin-bottom: 100px;
     /* Espacio entre secciones */
@@ -251,7 +253,7 @@ article {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-img {
+.imgagen-1 {
     display: block;
     margin: 50px  50px;
 width: 800px;
@@ -281,10 +283,10 @@ p{
 
 }
 
-.imagen:hover {
+.imagen-1:hover {
     transform: scale(1.01); /* Escalar la imagen al 110% en el hover */
 }
-.imagen {
+.imagen-1 {
     background-size: cover;
     background-position: center;
     height: 400px; 
