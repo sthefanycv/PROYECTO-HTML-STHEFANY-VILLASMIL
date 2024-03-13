@@ -249,7 +249,7 @@ button {
 .formulario h2 {
     text-align: center;
     margin-bottom: 30px;
-    font-size: var(--letra-mediana);
+    font-size: var(--letra-grande);
     color: var(--color-2);
 }
 

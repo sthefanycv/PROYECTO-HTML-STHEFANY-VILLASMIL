@@ -145,7 +145,7 @@ text-decoration: none;
 }
 
 .banner {
-    background-image: url(Imagenes/Background-3.png);
+    background-image: url(Imagenes/Background-4.png);
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -218,4 +218,171 @@ button {
     width: 240px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* ARTICULO */
+
+
+.articulos{
+    text-align: justify;
+    margin: 30px;
+    padding: 50px;
+
+    .separator-2 {
+        border: none;
+        border-top: 4px solid var(--color-2);
+        margin-top: 6px;
+        margin-bottom: 20px;
+        width: 240px;
+
+    }
+}
+h2 {
+    color: var(--color-2);
+    font-size: var(--letra-grande);
+}
+
+article {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    display: block;
+    margin: 50px  50px;
+width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logros {
+    background-color: #e3e3e3;
+}
+
+.compromiso {
+    background-color: #f9f9f9;
+}
+
+p{
+    font-size: var(--letra-default);
+    line-height: -1.5;
+    letter-spacing: 0.5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas */
+    grid-gap: 5px; /* Espacio entre las imágenes */
+    margin: 5px; /* Margen alrededor de la cuadrícula */
+
+}
+
+.imagen:hover {
+    transform: scale(1.01); /* Escalar la imagen al 110% en el hover */
+}
+.imagen {
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    margin: 5px; /* Margen alrededor de cada imagen */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.imagen1 {
+    background-image: url('Imagenes/Tienda-2.jpg');
+}
+
+.imagen2 {
+    background-image: url('Imagenes/tienda-5.jpg');
+}
+
+.imagen3 {
+    background-image: url('Imagenes/tienda-4.jpg');
+}
+
+
+/* Nuestros Logros */
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas */
+    grid-gap: 5px; /* Espacio entre las imágenes */
+    margin: 5px; /* Margen alrededor de la cuadrícula */
+
+}
+
+.imagen:hover {
+    transform: scale(1.01); /* Escalar la imagen al 110% en el hover */
+}
+.imagen {
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    margin: 5px; /* Margen alrededor de cada imagen */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.imagen1-2 {
+    background-image: url('Imagenes/proyecto-1.jpg');
+}
+
+.imagen2-2 {
+    background-image: url('Imagenes/proyecto-2.jpg');
+}
+
+.imagen3-2 {
+    background-image: url('Imagenes/proyecto-3.jpg');
+}
+
+
+
+/* Nuestro Compromiso */
+
+.container-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    margin: 10px; /* Margen alrededor de la cuadrícula */
+}
+
+.imagen {
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Altura de cada imagen */
+    border-radius: 10px;
+}
+
+.imagen1 {
+    background-image: url('Imagenes/proyecto-5.jpg');
+}
+
+.imagen2 {
+    background-image: url('Imagenes/proyecto-3.jpg');
+}
+
+.imagen:hover {
+    transform: scale(1.01); /* Escalar la imagen al 105% en el hover */
+    transition: transform 0.3s ease; /* Agregar una transición suave */
+}
+
+/* PIE DE PAGINA */
+
+.footer {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    text-align: center; 
+    padding: 20px 0; 
+    width: 100%; 
+    position: fixed; 
+    bottom: 0; /* Alinea el footer en la parte inferior de la ventana */
+    left: 0; /* Asegura que esté alineado a la izquierda */
+    right: 0; /* Asegura que esté alineado a la derecha */
 }
